@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.book_image img{
+    width: 70%;
+    margin-left: 50px;
+    margin-top: -70px;
+}
+.header-text{
+    text-align: center;
+    align-self: center;
+    color: #fff;
+}
+.header-text h3{
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.header-text h1{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.header-text p{
+   margin-bottom: 20px;
+}
+
+.header-text button{
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+@media (max-width:766px){
+    .header{
+        flex-direction: column;
+    }
+    .header .book_image img{
+        margin-top: 0;
+    }
+}

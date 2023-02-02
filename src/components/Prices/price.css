@@ -1,0 +1,69 @@
+.prices{
+    text-align: center;
+}
+.prices h1{
+    margin-bottom: 20px;
+}
+.prices p{
+    color: gray;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+.purchase{
+    margin-top: 50px;
+    display: grid;
+    margin-left: 60px;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+}
+.purchase .box{
+    border: 1px solid gray;
+    width: 350px;
+    border-radius: 8px;
+    height: 550px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    overflow: hidden;
+    -o-border-radius: 8px;
+}
+.purchase .box .shape{
+    background: rgba(208, 241, 241, 0.199);
+    padding: 50px;
+    height: 100%;
+    border-top-left-radius: 220px;
+    border-top-right-radius: 220px;
+}
+.purchase .box h2{
+    background: rgba(208, 241, 241, 0.199);
+    padding: 25px;
+    font-weight: normal;
+}
+.purchase .box p{
+    padding: 60px;
+}
+.purchase .box .shape h1{
+    font-size: 70px;
+}
+.purchase .box .shape button{
+    border: none;
+    background-color: rgb(70, 70, 70);
+    font-size: 15px;
+    color: #fff;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+@media (max-width:800px){
+    .purchase{
+        margin-left: 0;
+    }
+}

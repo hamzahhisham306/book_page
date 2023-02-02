@@ -1,0 +1,39 @@
+.platform{
+    background:linear-gradient(to bottom, #dd2476, #ff512f);;
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+}
+.platform h1{
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.platform p{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.platform .btns button{
+    margin-left: 80px;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 25px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: none;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+@media (max-width:800px) {
+    .btns button{
+        margin-left: 0;
+    }
+    .btns{
+      margin-right: 40px;
+    }
+}
